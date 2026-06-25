@@ -8,6 +8,7 @@ author_profile: true
 <style>
 .project-card {
   border: 1px solid #e5e5e5;
+  max-width: 520px;
   border-radius: 14px;
   overflow: hidden;
   margin-bottom: 2rem;
