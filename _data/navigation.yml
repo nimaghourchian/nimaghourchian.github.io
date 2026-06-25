@@ -12,7 +12,7 @@ main:
     url: /
 
   - title: "Projects"
-    url: /portfolio/
+    url: /projects/
 
   - title: "CV"
     url: /files/Nima_Ghourchian_CV.pdf
