@@ -44,7 +44,7 @@ author_profile: true
 
 <div class="project-card">
   <a href="/projects/cubesat-adcs/">
-    <img src="/images/cubesat-team.HEIC" alt="CubeSat team photo">
+    <img src="/images/cubesat-team.jpg" alt="CubeSat team photo">
   </a>
 
   <div class="project-content">
