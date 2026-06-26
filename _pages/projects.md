@@ -145,14 +145,16 @@ author_profile: true
     </div>
   </div>
 
-
-  <div class="project-card">
-    <a href="/projects/gps-denied-navigation/">
-      <div class="project-image-wrapper">
-        <img src="/images/gps-denied-navigation.jpg" alt="Vision-Based GPS-Denied Navigation">
-        <div class="project-year-badge">2026</div>
-      </div>
-    </a>
+<div class="project-card">
+  <a href="/projects/gps-denied-navigation/">
+    <div class="project-image-wrapper">
+      <video autoplay muted loop playsinline preload="metadata">
+        <source src="/videos/gps-denied-navigation.mp4" type="video/mp4">
+      </video>
+      <div class="project-year-badge">2026</div>
+    </div>
+  </a>
+  
 
     <div class="project-content">
       <h2 class="project-title">
