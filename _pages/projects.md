@@ -145,4 +145,27 @@ author_profile: true
     </div>
   </div>
 
+
+  <div class="project-card">
+    <a href="/projects/gps-denied-navigation/">
+      <div class="project-image-wrapper">
+        <img src="/images/gps-denied-navigation.jpg" alt="Vision-Based GPS-Denied Navigation">
+        <div class="project-year-badge">2026</div>
+      </div>
+    </a>
+
+    <div class="project-content">
+      <h2 class="project-title">
+        <a href="/projects/gps-denied-navigation/">Vision-Based GPS-Denied Navigation</a>
+      </h2>
+
+      <div class="project-meta">
+        <span>📅 2026</span>
+        <span>🏛 Bachelor’s Final Project</span>
+      </div>
+
+      <a class="project-button" href="/projects/gps-denied-navigation/">ⓘ Project Details</a>
+    </div>
+  </div>
+
 </div>
