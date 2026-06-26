@@ -34,7 +34,8 @@ author_profile: true
   overflow: hidden;
 }
 
-.project-image-wrapper img {
+.project-image-wrapper img,
+.project-image-wrapper video {
   width: 100%;
   height: 100%;
   object-fit: cover;
