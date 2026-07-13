@@ -26,7 +26,7 @@ author:
   avatar           : "profile1.jpg"
   name             : "Nima Ghourchian"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Bachelor of Mechanical Engineering, Islamic Azad University - Karaj Branch"
   location         : "Iran"
   employer         : 
   uri              : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
