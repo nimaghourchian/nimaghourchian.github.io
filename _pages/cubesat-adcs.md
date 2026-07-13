@@ -20,6 +20,7 @@ My work focused on:
 - designing orbital day/night sensor-selection logic;
 - combining sensor measurements to reduce noise and drift;
 - and validating the ADCS through software-in-the-loop simulation.
+
 ## Mission-Driven ADCS Design
 The mission created several distinct attitude control requirements. Following deployment into orbit, the spacecraft first had to reduce its initial angular velocity and establish a stable orientation. It then had to maintain the pointing conditions required for communication, imaging, tether deployment, retrieval of the Bisa module, and the final drag-sail deployment maneuver.
 The proposed mission profile included detumbling and subsystem checkout, tether deployment and separation, relative observation and retrieval of Bisa, a 90-degree spacecraft reorientation, and deployment of the drag sail. The ADCS therefore had to support several operating modes rather than a single fixed-pointing condition.
