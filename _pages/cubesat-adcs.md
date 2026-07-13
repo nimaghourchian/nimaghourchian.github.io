@@ -31,7 +31,7 @@ For initial detumbling, the control architecture used a B-dot controller, which 
 ## Orbital and Attitude-Dynamics Model
 An important part of this work was establishing consistent coordinate systems throughout the model. The orbital model, spacecraft body, reference attitude, sensor measurements, geomagnetic field, and commanded control moments all had to be expressed in compatible frames.
 Even a small inconsistency between the body and orbital frames could cause the controller to produce a mathematically valid command in precisely the wrong direction—which is a very sophisticated way of losing a satellite.
-Attitude Determination and Sensor Management
+## Attitude Determination and Sensor Management
 The ADCS architecture used measurements from a three-axis gyroscope, magnetometer, and sun/horizon sensor.
 Each sensor had different advantages and limitations:
 - The gyroscope provided angular-rate measurements but was affected by noise and accumulated drift.
@@ -39,7 +39,7 @@ Each sensor had different advantages and limitations:
 - The sun sensor provided an external attitude reference during illuminated portions of the orbit but became unavailable during eclipse.
 Because the available measurements changed as the spacecraft moved between orbital daylight and darkness, we implemented switching logic to select the appropriate sensor configuration during each condition. The sensor measurements were then combined to reduce noise and compensate for the limitations of relying on any individual sensor.
 The conceptual design also incorporated camera-based horizon detection and observation of the Bisa module. Image processing tasks were assigned to a Raspberry Pi, while attitude control execution was handled by the STM32-based onboard computer.
-##Controller Tuning
+## Controller Tuning
 The quaternion-feedback controller required extensive tuning.
 The gains had to provide acceptable convergence without introducing excessive oscillation or control effort. 
 Tuning was performed iteratively in Simulink while observing the spacecraft attitude, quaternion error, angular velocity, and commanded control moments. The process showed that controller tuning could not be separated from actuator limitations, sensor noise, or the spacecraft inertia model.
