@@ -38,6 +38,7 @@ Each sensor had different advantages and limitations:
 - The gyroscope provided angular-rate measurements but was affected by noise and accumulated drift.
 - The magnetometer measured the geomagnetic-field vector in the spacecraft body frame.
 - The sun sensor provided an external attitude reference during illuminated portions of the orbit but became unavailable during eclipse.
+
 Because the available measurements changed as the spacecraft moved between orbital daylight and darkness, we implemented switching logic to select the appropriate sensor configuration during each condition. The sensor measurements were then combined to reduce noise and compensate for the limitations of relying on any individual sensor.
 The conceptual design also incorporated camera-based horizon detection and observation of the Bisa module. Image processing tasks were assigned to a Raspberry Pi, while attitude control execution was handled by the STM32-based onboard computer.
 ## Controller Tuning
