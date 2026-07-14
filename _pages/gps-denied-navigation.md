@@ -127,6 +127,7 @@ Absolute Visual Localization required several computational stages:
 -	detailed feature matching;
 -	homography estimation;
 -	geographic-coordinate conversion.
+
 By the time this sequence was completed, the UAV had already moved away from the position shown in the processed image.
 The returned coordinate was therefore an estimate of the UAV’s past position.
 I attempted to compensate for this by associating every absolute result with its original image frame and applying its correction to the stored history of relative estimates. This improved the internal consistency of the fused trajectory.
