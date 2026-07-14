@@ -23,7 +23,7 @@ redirect_from:
 .highlight-card img,
 .highlight-card video {
   width: 50px;
-  height: 180px;
+  height: 90px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
