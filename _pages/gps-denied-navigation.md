@@ -29,6 +29,7 @@ This project therefore addressed two related problems:
 1.	determining the UAV’s position from visual information;
 2.	delivering that position with sufficiently low delay for real-time navigation.
 The first problem was solved with promising results. The second became the main limitation of the completed system.
+
 ## Simulation Environment
 The complete navigation scenario was created in a simulated environment rather than using a physical UAV.
 AirSim was responsible for simulating the UAV, its motion, camera, and flight dynamics. Cesium for Unreal supplied the geospatial environment and allowed the vehicle to fly over realistic terrain generated from geographic data.
