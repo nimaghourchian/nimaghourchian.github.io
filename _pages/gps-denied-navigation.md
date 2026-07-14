@@ -95,6 +95,9 @@ The conversion used:
 These values were used to approximate the ground-sampling distance of each image. Pixel motion could then be converted into metres.
 The displacement was rotated into a north–east reference frame using the accumulated yaw estimate. Successive motion estimates were integrated to produce a continuous local trajectory.
 This method was fast enough to process image sequences at a nominal rate of 10 Hz, but because each estimate depended on the previous one, errors accumulated over time.
+
+<img src="/images/SIFT_error.png" alt="Vision-based GPS-denied navigation architecture" style="width: 100%; max-width: 950px; border-radius: 10px; margin: 1.5rem 0;">
+
 Combining Absolute and Relative Localization
 Absolute and relative localization had complementary strengths.
 The relative estimator produced frequent updates and captured the short-term motion of the UAV. However, its trajectory gradually drifted.
