@@ -76,6 +76,7 @@ SIFT was used to detect keypoints and calculate descriptors in consecutive frame
 The descriptors were matched using a FLANN-based matcher, and Lowe’s ratio test was applied to remove ambiguous matches.
 If a sufficient number of valid feature correspondences remained, a partial affine transformation was estimated between the two frames.
 From this transformation, the system extracted:
+
 -	horizontal pixel displacement;
 -	vertical pixel displacement;
 -	change in yaw.
