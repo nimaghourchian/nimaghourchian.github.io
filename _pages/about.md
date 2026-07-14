@@ -10,20 +10,20 @@ redirect_from:
 <style>
 .highlight-card {
   display: flex;
-  gap: 1.6rem;
-  align-items: flex-start;
+  gap: 2rem;
+  align-items: center;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
-  padding: 1.3rem;
-  margin-bottom: 1.6rem;
+  padding: 1.6rem 1.8rem;
+  margin-bottom: 1.8rem;
   background: #ffffff;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
 }
 
 .highlight-card img,
 .highlight-card video {
-  width: 210px;
-  height: 140px;
+  width: 300px;
+  height: 180px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
