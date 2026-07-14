@@ -12,6 +12,9 @@ author_profile: true
 Vision-Based GPS-Denied Navigation
 Bachelor’s Final Project | Solo Project
 ## Project Overview
+
+<img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="width: 100%; max-width: 950px; border-radius: 10px; margin: 1.5rem 0;">
+
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
 The system was developed as my bachelor’s final project and was completed independently. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
 The UAV and its camera were simulated in Unreal Engine using Microsoft AirSim, while Cesium for Unreal provided a geospatially accurate environment. As the UAV flew through the simulated environment, a downward-facing camera generated aerial images. These images were then compared with satellite imagery obtained from Google Maps to estimate the UAV’s geographic position.
