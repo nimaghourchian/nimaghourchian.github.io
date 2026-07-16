@@ -10,7 +10,7 @@ redirect_from:
 <style>
 
 .page__content p.about-intro {
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   line-height: 1.65;
 }
   
