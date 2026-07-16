@@ -10,7 +10,7 @@ redirect_from:
 <style>
 
   .about-intro {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   line-height: 1.65;
 }
 .highlight-card {
