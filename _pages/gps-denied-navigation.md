@@ -9,8 +9,6 @@ author_profile: true
   <source src="/videos/gps-denied-navigation.mp4" type="video/mp4">
 </video>
 
-Vision-Based GPS-Denied Navigation
-Bachelor’s Final Project | Solo Project
 ## Project Overview
 
 <img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="width: 100%; max-width: 950px; border-radius: 10px; margin: 1.5rem 0;">
