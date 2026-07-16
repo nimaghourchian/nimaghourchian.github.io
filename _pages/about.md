@@ -9,10 +9,11 @@ redirect_from:
 
 <style>
 
-  .about-intro {
-  font-size: 2.5rem;
+.page__content p.about-intro {
+  font-size: 1.2rem !important;
   line-height: 1.65;
 }
+  
 .highlight-card {
   display: flex;
   gap: 1.4rem;
