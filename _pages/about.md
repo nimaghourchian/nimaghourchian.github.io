@@ -70,7 +70,7 @@ redirect_from:
   padding: 0.32rem 0.65rem;
   border: 1px solid #d0d7de;
   border-radius: 5px;
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 700;
   font-size: 0.82rem;
   color: #2486c7 !important;
@@ -99,6 +99,19 @@ redirect_from:
     height: auto;
     margin-bottom: 1rem;
   }
+}
+
+/* Kill the theme-forced underline on Project Details buttons */
+.highlight-button,
+.highlight-button:link,
+.highlight-button:visited,
+.highlight-button:hover,
+.highlight-button:focus,
+.highlight-button:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 </style>
 
