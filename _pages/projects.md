@@ -96,7 +96,7 @@ author_profile: false
   border-radius: 8px;
   padding: 0.8rem 1rem;
   margin-bottom: 1.4rem;
-  color: #6177f2;
+  color: #344054;
   font-size: 0.92rem;
   font-weight: 600;
 }
