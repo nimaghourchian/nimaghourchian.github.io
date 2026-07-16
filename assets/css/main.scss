@@ -37,3 +37,49 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+    "layout/json_cv"
+;
+
+/* Custom email copy button styling */
+.author-email-copy {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.author-email-copy:hover {
+  color: #2486c7;
+}
+
+.author-email-copy:focus,
+.author-email-copy:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.copy-feedback {
+  opacity: 0;
+  transform: translateX(-4px);
+  margin-left: 0.45rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: #ecfdf5;
+  color: #047857;
+  font-size: 0.72rem;
+  font-weight: 700;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.copy-feedback.show {
+  opacity: 1;
+  transform: translateX(0);
+}
