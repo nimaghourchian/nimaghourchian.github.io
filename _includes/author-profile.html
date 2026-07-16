@@ -33,19 +33,21 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-  <li class="author-email-item">
-    <button type="button" class="author-email-copy" onclick="copyEmailToClipboard(this)" aria-label="Copy email address">
+     {% if author.email %}
+  <li>
+    <a href="#" class="author-email-copy" onclick="copyEmailToClipboard(event, this)">
       <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
       <span>Email</span>
       <span class="copy-feedback">Copied!</span>
-    </button>
+    </a>
   </li>
 
   <script>
-    function copyEmailToClipboard(button) {
+    function copyEmailToClipboard(event, link) {
+      event.preventDefault();
+
       const email = "{{ author.email }}";
-      const feedback = button.querySelector(".copy-feedback");
+      const feedback = link.querySelector(".copy-feedback");
 
       navigator.clipboard.writeText(email).then(function() {
         feedback.classList.add("show");
