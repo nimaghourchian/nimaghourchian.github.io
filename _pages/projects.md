@@ -6,37 +6,44 @@ author_profile: false
 ---
 
 <style>
+.archive {
+  float: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.archive .page__title {
+  width: 100%;
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
-  gap: 2.4rem;
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 700px));
+  justify-content: center;
+  column-gap: clamp(3rem, 9vw, 14rem);
+  row-gap: 2.4rem;
+  width: 100%;
+  max-width: 1650px;
+  margin: 1.5rem auto 0;
 }
 
 .project-card {
   background: #ffffff;
+  border: 1px solid #eeeeee;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
-  border: 1px solid #eeeeee;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.13);
-}
-
-  .project-button,
-.project-button:link,
-.project-button:visited,
-.project-button:hover,
-.project-button:focus,
-.project-button:active {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-  background-image: none !important;
 }
 
 .project-image-wrapper {
@@ -48,24 +55,25 @@ author_profile: false
 
 .project-image-wrapper img,
 .project-image-wrapper video {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 .project-year-badge {
   position: absolute;
   top: 0;
   right: 0;
-  background: #222;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 0.82rem;
-  white-space: nowrap;
   padding: 0.7rem 0.9rem;
   border-bottom-left-radius: 14px;
+  background: #222222;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
+
 .project-content {
   padding: 1.5rem;
 }
@@ -91,11 +99,11 @@ author_profile: false
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  background: #f7f8fb;
-  border-left: 4px solid #6177f2;
-  border-radius: 8px;
   padding: 0.8rem 1rem;
   margin-bottom: 1.4rem;
+  border-left: 4px solid #6177f2;
+  border-radius: 8px;
+  background: #f7f8fb;
   color: #344054;
   font-size: 0.92rem;
   font-weight: 600;
@@ -109,13 +117,13 @@ author_profile: false
 
 .project-button {
   display: block;
-  text-align: center;
-  background: #6177f2;
-  color: #ffffff !important;
-  text-decoration: none;
-  font-weight: 700;
   padding: 0.85rem 1rem;
   border-radius: 8px;
+  background: #6177f2;
+  color: #ffffff !important;
+  text-align: center;
+  text-decoration: none !important;
+  font-weight: 700;
   transition: background 0.2s ease;
 }
 
@@ -123,9 +131,22 @@ author_profile: false
   background: #4f63dc;
 }
 
+.project-button,
+.project-button:link,
+.project-button:visited,
+.project-button:hover,
+.project-button:focus,
+.project-button:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
 @media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    max-width: 700px;
   }
 
   .project-image-wrapper {
