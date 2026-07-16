@@ -2,46 +2,5 @@
 
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
-<div class="cubesat-launch" aria-hidden="true">
-  <div class="cubesat-launch__scene">
-    <div class="cubesat-launch__orbit">
-      <div class="cubesat-launch__orbiter">
-        <div class="cubesat-launch__satellite"></div>
-      </div>
-    </div>
 
-    <div class="cubesat-launch__planet"></div>
-  </div>
-</div>
-
-<script>
-  document.addEventListener("click", function (event) {
-    const projectLink = event.target.closest(
-      'a[href="/projects/cubesat-adcs/"]'
-    );
-
-    const reducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-    const modifiedClick =
-      event.ctrlKey ||
-      event.metaKey ||
-      event.shiftKey ||
-      event.altKey;
-
-    if (!projectLink || reducedMotion || modifiedClick) {
-      return;
-    }
-
-    event.preventDefault();
-
-    const launch = document.querySelector(".cubesat-launch");
-    launch.classList.add("is-active");
-
-    window.setTimeout(function () {
-      window.location.href = projectLink.href;
-    }, 900);
-  });
-</script>
 <!-- end custom footer snippets -->
