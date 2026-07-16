@@ -49,7 +49,7 @@ author_profile: false
 .project-image-wrapper {
   position: relative;
   width: 100%;
-  height: 220px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
 }
 
