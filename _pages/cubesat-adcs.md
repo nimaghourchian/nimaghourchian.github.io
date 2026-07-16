@@ -1,10 +1,16 @@
 ---
 layout: single
-title: "3U CubeSat Attitude Determination and Control System"
+title: "Attitude Determination and Control System"
 permalink: /projects/cubesat-adcs/
 author_profile: false
 ---
 
+
+<style>
+.page__content {
+  padding-top: 1.5rem;
+}
+</style>
 
 This competition gave participating teams the freedom to define their own CubeSat missions and design the spacecraft around the resulting requirements. After evaluating several mission concepts, our team developed Cubisa, a 3U CubeSat intended to demonstrate technologies relevant to tether-based space-debris removal.
 The spacecraft consisted of a the main satellite, named Q, and a detachable module, named Bisa, representing a target object. The proposed mission involved stabilizing the spacecraft after orbital injection, deploying Bisa using an inter-satellite tether, observing its relative motion through onboard imaging, retrieving and reconnecting it, reorienting the combined spacecraft, and finally deploying a drag sail to accelerate orbital decay.
