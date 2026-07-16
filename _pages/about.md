@@ -148,8 +148,9 @@ Hello, I am a mechanical engineering student interested in the control of comple
 
 
     <div class="highlight-meta">
-      🚁 Bachelor’s Final Project 
-    </div>
+  <img src="/images/drone-icon.png" alt="" class="drone-icon">
+  Bachelor’s Final Project
+</div>
 
     <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
   </div>
