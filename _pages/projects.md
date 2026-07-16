@@ -23,12 +23,12 @@ author_profile: false
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 700px));
+  grid-template-columns: repeat(2, minmax(0, 620px));
   justify-content: center;
   column-gap: clamp(3rem, 9vw, 14rem);
   row-gap: 2.4rem;
   width: 100%;
-  max-width: 1650px;
+  max-width: 1450px;
   margin: 1.5rem auto 0;
 }
 
