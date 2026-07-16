@@ -4,11 +4,15 @@ title: "3U CubeSat Attitude Determination and Control System"
 permalink: /projects/cubesat-adcs/
 author_profile: false
 ---
-<img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team" style="width: 100%; max-width: 850px; border-radius: 10px; margin-bottom: 1.5rem;">
+<img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team" style="width: 100%; max-width: 850px; border-radius: 10px; margin-bottom: 1.5rem; margin-top: 1.5rem;">
 
 This competition gave participating teams the freedom to define their own CubeSat missions and design the spacecraft around the resulting requirements. After evaluating several mission concepts, our team developed Cubisa, a 3U CubeSat intended to demonstrate technologies relevant to tether-based space-debris removal.
 The spacecraft consisted of a the main satellite, named Q, and a detachable module, named Bisa, representing a target object. The proposed mission involved stabilizing the spacecraft after orbital injection, deploying Bisa using an inter-satellite tether, observing its relative motion through onboard imaging, retrieving and reconnecting it, reorienting the combined spacecraft, and finally deploying a drag sail to accelerate orbital decay.
 Our design progressed through conceptual design, detailed design, and prototype development, ultimately placing among the top four teams out of 52 participants nationwide.
+
+<img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team" style="width: 100%; max-width: 850px; border-radius: 10px; margin-bottom: 1.5rem; margin-top: 1.5rem;">
+
+
 ## My Role
 I was one of two team members responsible for the Attitude Determination and Control System, which had to determine the spacecraft’s orientation and generate the control commands required throughout the different mission phases.
 My work focused on:
