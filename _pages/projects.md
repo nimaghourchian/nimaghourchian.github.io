@@ -61,11 +61,11 @@ author_profile: false
   background: #222;
   color: #ffffff;
   font-weight: 700;
-  font-size: 0.95rem;
-  padding: 0.75rem 1rem;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  padding: 0.7rem 0.9rem;
   border-bottom-left-radius: 14px;
 }
-
 .project-content {
   padding: 1.5rem;
 }
@@ -140,7 +140,7 @@ author_profile: false
     <a href="/projects/cubesat-adcs/">
       <div class="project-image-wrapper">
         <img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team">
-        <div class="project-year-badge">2025</div>
+        <div class="project-year-badge">Jan 2025 — Present</div>
       </div>
     </a>
 
@@ -150,7 +150,7 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
-        <span><i class="fas fa-calendar" aria-hidden="true"></i>Jan 2025 — Present</span>
+        
         <span>🛰 National 3U CubeSat Competition (Qsat)</span>
       </div>
 
@@ -164,7 +164,7 @@ author_profile: false
       <video autoplay muted loop playsinline preload="metadata">
         <source src="/videos/gps-denied-navigation.mp4" type="video/mp4">
       </video>
-      <div class="project-year-badge">2026</div>
+      <div class="project-year-badge">Jun 2025 — Jan 2026</div>
     </div>
   </a>
   
@@ -175,8 +175,7 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
-        <span><i class="fas fa-calendar" aria-hidden="true"></i>Jun 2025 — Jan 2026</span>
-        <span>🏛 Bachelor’s Final Project</span>
+        <span>🚁 Bachelor’s Final Project</span>
       </div>
 
       <a class="project-button" href="/projects/gps-denied-navigation/">Project Details</a>
