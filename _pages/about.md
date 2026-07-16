@@ -109,7 +109,8 @@ redirect_from:
 .highlight-button:focus,
 .highlight-button:active {
   text-decoration: none !important;
-  border-bottom: none !important;
+  border: 1px solid #d0d7de !important;
+  border-bottom: 1px solid #d0d7de !important;
   box-shadow: none !important;
   background-image: none !important;
 }
