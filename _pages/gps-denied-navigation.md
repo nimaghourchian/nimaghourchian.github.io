@@ -11,7 +11,7 @@ author_profile: true
 
 ## Project Overview
 
-<img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="width: 70%; max-width: 950px; border-radius: 10px; margin: 1.5rem 0;">
+<img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="width: 70%; max-width: 950px; border-radius: 10px; margin: 1.5rem auto;">
 
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
 The system was developed as my bachelor’s final project and was completed independently. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
