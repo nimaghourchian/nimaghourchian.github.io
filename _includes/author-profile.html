@@ -33,33 +33,30 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-     {% if author.email %}
-  <li>
-    <a href="#" class="author-email-copy" onclick="copyEmailToClipboard(event, this)">
-      <span class="email-copy-icon" aria-hidden="true">✉</span>
-      <span>Email</span>
-      <span class="copy-feedback">Copied!</span>
-    </a>
-  </li>
+    <li>
+  <a href="#" class="author-email-copy" onclick="copyEmailToClipboard(event, this)">
+    <span class="email-copy-icon" aria-hidden="true">✉</span>
+    <span>Email</span>
+    <span class="copy-feedback">Copied!</span>
+  </a>
+</li>
 
-  <script>
-    function copyEmailToClipboard(event, link) {
-      event.preventDefault();
+<script>
+  function copyEmailToClipboard(event, link) {
+    event.preventDefault();
 
-      const email = "{{ author.email }}";
-      const feedback = link.querySelector(".copy-feedback");
+    const email = "nima.ghourchian01@gmail.com";
+    const feedback = link.querySelector(".copy-feedback");
 
-      navigator.clipboard.writeText(email).then(function() {
-        feedback.classList.add("show");
+    navigator.clipboard.writeText(email).then(function() {
+      feedback.classList.add("show");
 
-        setTimeout(function() {
-          feedback.classList.remove("show");
-        }, 1600);
-      });
-    }
-  </script>
-{% endif %}
-
+      setTimeout(function() {
+        feedback.classList.remove("show");
+      }, 1600);
+    });
+  }
+</script>
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
