@@ -111,16 +111,12 @@ Email: [nima.ghourchian01@gmail.com](mailto:nima.ghourchian01@gmail.com)
   <img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS project">
 
   <div class="highlight-content">
-    <h3>3U CubeSat Attitude Determination and Control System</h3>
+    <h3> Attitude Determination and Control System</h3>
 
-    <p>
-      ADCS development for a national 3U CubeSat competition, including B-dot detumbling,
-      quaternion-feedback attitude control, orbital day/night sensor-selection logic,
-      and Simulink-based validation.
-    </p>
+    
 
     <div class="highlight-meta">
-      🛰 National 3U CubeSat Competition — Top 4 of 52 teams
+      🛰 National 3U CubeSat Competition (Qsat) — Top 4 of 52 teams
     </div>
 
     <a class="highlight-button" href="/projects/cubesat-adcs/">Project Details</a>
@@ -135,14 +131,10 @@ Email: [nima.ghourchian01@gmail.com](mailto:nima.ghourchian01@gmail.com)
   <div class="highlight-content">
     <h3>Vision-Based GPS-Denied Navigation</h3>
 
-    <p>
-      Vision-based UAV localization pipeline using satellite–UAV image matching,
-      visual odometry, homography-based geographic estimation, and Kalman-filter-based
-      state estimation for GPS-denied navigation.
-    </p>
+
 
     <div class="highlight-meta">
-      🚁 Bachelor’s Final Project — Solo Project
+      🚁 Bachelor’s Final Project 
     </div>
 
     <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
