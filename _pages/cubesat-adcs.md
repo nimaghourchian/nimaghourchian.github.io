@@ -2,7 +2,7 @@
 layout: single
 title: "3U CubeSat Attitude Determination and Control System"
 permalink: /projects/cubesat-adcs/
-author_profile: true
+author_profile: false
 ---
 <img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team" style="width: 100%; max-width: 850px; border-radius: 10px; margin-bottom: 1.5rem;">
 
