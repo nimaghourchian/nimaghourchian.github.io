@@ -2,7 +2,7 @@
 layout: single
 title: "Vision-Based GPS-Denied Navigation"
 permalink: /projects/gps-denied-navigation/
-author_profile: true
+author_profile: false
 ---
 
 <video autoplay muted loop playsinline controls style="width: 100%; max-width: 900px; border-radius: 10px; margin-bottom: 1.5rem;">
