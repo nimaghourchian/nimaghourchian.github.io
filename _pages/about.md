@@ -130,8 +130,11 @@ redirect_from:
 }
 </style>
 
-Hello, I am a mechanical engineering student interested in the control of complex autonomous and multi-agent systems. My specific interests include adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
-
+<p class="about-intro">
+  Hello, I am a mechanical engineering graduate interested in the control of
+  complex autonomous and multi-agent systems. My specific interests include
+  adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
+</p>
 
 ## Selected Projects
 
