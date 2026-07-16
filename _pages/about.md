@@ -118,7 +118,6 @@ redirect_from:
 
 Hello, I am a mechanical engineering student interested in the control of complex autonomous and multi-agent systems. My specific interests include adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
 
-Email: [nima.ghourchian01@gmail.com](mailto:nima.ghourchian01@gmail.com)
 
 ## Selected Projects
 
@@ -131,7 +130,7 @@ Email: [nima.ghourchian01@gmail.com](mailto:nima.ghourchian01@gmail.com)
     
 
     <div class="highlight-meta">
-      🛰 National 3U CubeSat Competition (Qsat) — Top 4 of 52 teams
+      🛰 National 3U CubeSat Competition (Qsat)
     </div>
 
     <a class="highlight-button" href="/projects/cubesat-adcs/">Project Details</a>
