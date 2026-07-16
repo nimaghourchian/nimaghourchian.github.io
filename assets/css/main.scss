@@ -79,3 +79,108 @@
 .copy-feedback.show {
   display: inline-block;
 }
+
+/* CubeSat project transition */
+.cubesat-launch {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: radial-gradient(circle, #142b4d, #030914 70%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.cubesat-launch.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.cubesat-launch__scene {
+  position: relative;
+  width: min(72vw, 360px);
+  aspect-ratio: 1;
+}
+
+.cubesat-launch__planet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 42%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background:
+    radial-gradient(circle at 34% 30%,
+      rgba(255, 255, 255, 0.4) 0 4%,
+      transparent 5%),
+    linear-gradient(145deg, #62c5dc, #2785b3 45%, #103e71);
+  box-shadow:
+    inset -18px -16px 24px rgba(1, 13, 35, 0.48),
+    0 0 32px rgba(79, 182, 221, 0.3);
+}
+
+.cubesat-launch__orbit {
+  position: absolute;
+  inset: 13%;
+  border: 1px solid rgba(157, 213, 255, 0.38);
+  border-radius: 50%;
+  transform: rotate(-22deg);
+}
+
+.cubesat-launch__orbiter {
+  position: absolute;
+  inset: -1px;
+}
+
+.cubesat-launch.is-active .cubesat-launch__orbiter {
+  animation: cubesat-orbit 900ms ease-in-out forwards;
+}
+
+/* 3U proportions: three times taller than wide */
+.cubesat-launch__satellite {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  width: 18px;
+  height: 54px;
+  transform: translateX(-50%) rotate(22deg);
+  border: 1px solid #b7c3ce;
+  border-radius: 2px;
+  background:
+    linear-gradient(
+      to bottom,
+      transparent 32%,
+      #b7c3ce 33% 35%,
+      transparent 36% 65%,
+      #b7c3ce 66% 68%,
+      transparent 69%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #173e72 0 4px,
+      #245a9a 4px 7px
+    );
+  box-shadow: 0 0 10px rgba(133, 197, 255, 0.55);
+}
+
+@keyframes cubesat-orbit {
+  from {
+    transform: rotate(-65deg);
+  }
+
+  to {
+    transform: rotate(295deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cubesat-launch {
+    display: none;
+  }
+}
