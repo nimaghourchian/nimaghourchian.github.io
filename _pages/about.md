@@ -8,6 +8,11 @@ redirect_from:
 ---
 
 <style>
+
+  .about-intro {
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
 .highlight-card {
   display: flex;
   gap: 1.4rem;
