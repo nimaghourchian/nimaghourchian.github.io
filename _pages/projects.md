@@ -115,6 +115,13 @@ author_profile: false
   gap: 0.35rem;
 }
 
+.drone-icon {
+  width: 1.4em;
+  height: 1.4em;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .project-button {
   display: block;
   padding: 0.85rem 1rem;
@@ -167,39 +174,56 @@ author_profile: false
 
     <div class="project-content">
       <h2 class="project-title">
-        <a href="/projects/cubesat-adcs/">Attitude Determination and Control System</a>
+        <a href="/projects/cubesat-adcs/">
+          Attitude Determination and Control System
+        </a>
       </h2>
 
       <div class="project-meta">
-        
         <span>🛰 National 3U CubeSat Competition (Qsat)</span>
       </div>
 
-      <a class="project-button" href="/projects/cubesat-adcs/">Project Details</a>
+      <a class="project-button" href="/projects/cubesat-adcs/">
+        Project Details
+      </a>
     </div>
   </div>
 
-<div class="project-card">
-  <a href="/projects/gps-denied-navigation/">
-    <div class="project-image-wrapper">
-      <video autoplay muted loop playsinline preload="metadata">
-        <source src="/videos/gps-denied-navigation.mp4" type="video/mp4">
-      </video>
-      <div class="project-year-badge">Jun 2025 — Jan 2026</div>
-    </div>
-  </a>
-  
+  <div class="project-card">
+    <a href="/projects/gps-denied-navigation/">
+      <div class="project-image-wrapper">
+        <video autoplay muted loop playsinline preload="metadata">
+          <source
+            src="/videos/gps-denied-navigation.mp4"
+            type="video/mp4"
+          >
+        </video>
+
+        <div class="project-year-badge">Jun 2025 — Jan 2026</div>
+      </div>
+    </a>
 
     <div class="project-content">
       <h2 class="project-title">
-        <a href="/projects/gps-denied-navigation/">Vision-Based GPS-Denied Navigation</a>
+        <a href="/projects/gps-denied-navigation/">
+          Vision-Based GPS-Denied Navigation
+        </a>
       </h2>
 
       <div class="project-meta">
-        <span>🚁 Bachelor’s Final Project</span>
+        <span>
+          <img
+            src="/images/drone-icon.png"
+            alt=""
+            class="drone-icon"
+          >
+          Bachelor’s Final Project
+        </span>
       </div>
 
-      <a class="project-button" href="/projects/gps-denied-navigation/">Project Details</a>
+      <a class="project-button" href="/projects/gps-denied-navigation/">
+        Project Details
+      </a>
     </div>
   </div>
 
