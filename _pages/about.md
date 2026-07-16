@@ -10,63 +10,86 @@ redirect_from:
 <style>
 .highlight-card {
   display: flex;
-  gap: 2rem;
-  align-items: center;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 1.6rem 1.8rem;
+  gap: 1.5rem;
+  align-items: flex-start;
+  border: 1px solid #d9e1ea;
+  border-radius: 14px;
+  padding: 1.4rem 1.6rem;
   margin-bottom: 1.8rem;
   background: #ffffff;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+  box-shadow: none;
+  max-width: 1280px;
 }
 
 .highlight-card img,
 .highlight-card video {
-  width: 340px;
-  height: 200px;
+  width: 220px;
+  height: 150px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.highlight-content {
+  flex: 1;
 }
 
 .highlight-content h3 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
   color: #24364a;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  font-weight: 700;
 }
 
 .highlight-content p {
-  margin-bottom: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0.9rem;
   line-height: 1.55;
+  color: #4b5563;
+  font-size: 0.98rem;
 }
 
 .highlight-meta {
   background: #f7f8fb;
-  border-left: 4px solid #6177f2;
-  padding: 0.65rem 0.85rem;
-  border-radius: 7px;
-  margin-bottom: 0.9rem;
+  border-left: 4px solid #5b74f2;
+  padding: 0.7rem 0.95rem;
+  border-radius: 8px;
+  margin-bottom: 0.95rem;
   font-weight: 600;
   color: #344054;
+  font-size: 0.96rem;
+  line-height: 1.45;
 }
 
 .highlight-button {
   display: inline-block;
-  padding: 0.45rem 0.8rem;
+  padding: 0.42rem 0.82rem;
   border: 1px solid #d0d7de;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 700;
+  font-size: 0.95rem;
+  color: #3b82c4 !important;
+  background: #ffffff;
 }
 
 .highlight-button:hover {
   background: #f3f4f6;
+  text-decoration: none;
 }
 
-@media (max-width: 700px) {
+/* Optional: make the first card have a blue outline like the example */
+.highlight-card:first-of-type {
+  border-color: #59aaf7;
+}
+
+@media (max-width: 800px) {
   .highlight-card {
     display: block;
+    padding: 1.2rem;
   }
 
   .highlight-card img,
@@ -78,7 +101,7 @@ redirect_from:
 }
 </style>
 
-Hello, I am a mechanical engineering graduate interested in the control of complex autonomous and multi-agent systems. My interests include adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
+Hello, I am a mechanical engineering student interested in the control of complex autonomous and multi-agent systems. My specific interests include adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
 
 Email: [nima.ghourchian01@gmail.com](mailto:nima.ghourchian01@gmail.com)
 
