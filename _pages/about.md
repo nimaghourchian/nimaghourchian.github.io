@@ -116,8 +116,8 @@ redirect_from:
 }
 
   .highlight-card .highlight-meta img.drone-icon {
-  width: 1.4em !important;
-  height: 1.4em !important;
+  width: 1.6em !important;
+  height: 1.6em !important;
   margin: 0 !important;
   border-radius: 0 !important;
   object-fit: contain !important;
