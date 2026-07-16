@@ -27,6 +27,18 @@ author_profile: false
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.13);
 }
 
+  .project-button,
+.project-button:link,
+.project-button:visited,
+.project-button:hover,
+.project-button:focus,
+.project-button:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
 .project-image-wrapper {
   position: relative;
   width: 100%;
@@ -142,7 +154,7 @@ author_profile: false
         <span>🏛 National 3U CubeSat Competition</span>
       </div>
 
-      <a class="project-button" href="/projects/cubesat-adcs/">ⓘ Project Details</a>
+      <a class="project-button" href="/projects/cubesat-adcs/">Project Details</a>
     </div>
   </div>
 
@@ -167,7 +179,7 @@ author_profile: false
         <span>🏛 Bachelor’s Final Project</span>
       </div>
 
-      <a class="project-button" href="/projects/gps-denied-navigation/">ⓘ Project Details</a>
+      <a class="project-button" href="/projects/gps-denied-navigation/">Project Details</a>
     </div>
   </div>
 
