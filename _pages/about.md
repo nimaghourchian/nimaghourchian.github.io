@@ -10,69 +10,70 @@ redirect_from:
 <style>
 .highlight-card {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.4rem;
   align-items: flex-start;
   border: 1px solid #d9e1ea;
-  border-radius: 14px;
-  padding: 1.4rem 1.6rem;
-  margin-bottom: 1.8rem;
+  border-radius: 10px;
+  padding: 1.05rem 1.25rem;
+  margin-bottom: 1.4rem;
   background: #ffffff;
   box-shadow: none;
-  max-width: 1280px;
+  width: 100%;
 }
 
 .highlight-card img,
 .highlight-card video {
-  width: 220px;
-  height: 150px;
+  width: 170px;
+  height: 135px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
   flex-shrink: 0;
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
 }
 
 .highlight-content {
   flex: 1;
+  min-width: 0;
 }
 
 .highlight-content h3 {
   margin-top: 0;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.35rem;
   color: #24364a;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.25;
   font-weight: 700;
 }
 
 .highlight-content p {
   margin-top: 0;
-  margin-bottom: 0.9rem;
-  line-height: 1.55;
+  margin-bottom: 0.65rem;
+  line-height: 1.45;
   color: #4b5563;
-  font-size: 0.98rem;
+  font-size: 0.88rem;
 }
 
 .highlight-meta {
   background: #f7f8fb;
   border-left: 4px solid #5b74f2;
-  padding: 0.7rem 0.95rem;
-  border-radius: 8px;
-  margin-bottom: 0.95rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
   font-weight: 600;
   color: #344054;
-  font-size: 0.96rem;
-  line-height: 1.45;
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .highlight-button {
   display: inline-block;
-  padding: 0.42rem 0.82rem;
+  padding: 0.32rem 0.65rem;
   border: 1px solid #d0d7de;
-  border-radius: 6px;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.95rem;
-  color: #3b82c4 !important;
+  font-size: 0.82rem;
+  color: #2486c7 !important;
   background: #ffffff;
 }
 
@@ -81,7 +82,6 @@ redirect_from:
   text-decoration: none;
 }
 
-/* Optional: make the first card have a blue outline like the example */
 .highlight-card:first-of-type {
   border-color: #59aaf7;
 }
@@ -89,7 +89,7 @@ redirect_from:
 @media (max-width: 800px) {
   .highlight-card {
     display: block;
-    padding: 1.2rem;
+    padding: 1rem;
   }
 
   .highlight-card img,
