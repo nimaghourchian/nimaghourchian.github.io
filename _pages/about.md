@@ -38,7 +38,7 @@ redirect_from:
 
 .highlight-content h3 {
   margin-top: 0;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.75rem;
   color: #24364a;
   font-size: 1rem;
   line-height: 1.25;
@@ -79,11 +79,12 @@ redirect_from:
 
 .highlight-button:hover {
   background: #f3f4f6;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-.highlight-card:first-of-type {
+.highlight-card:hover {
   border-color: #59aaf7;
+  box-shadow: 0 6px 18px rgba(89, 170, 247, 0.12);
 }
 
 @media (max-width: 800px) {
