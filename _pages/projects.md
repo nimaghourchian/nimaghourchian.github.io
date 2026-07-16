@@ -96,7 +96,7 @@ author_profile: false
   border-radius: 8px;
   padding: 0.8rem 1rem;
   margin-bottom: 1.4rem;
-  color: #344054;
+  color: #6177f2;
   font-size: 0.92rem;
   font-weight: 600;
 }
@@ -146,12 +146,12 @@ author_profile: false
 
     <div class="project-content">
       <h2 class="project-title">
-        <a href="/projects/cubesat-adcs/">3U CubeSat Attitude Determination and Control System</a>
+        <a href="/projects/cubesat-adcs/">Attitude Determination and Control System</a>
       </h2>
 
       <div class="project-meta">
-        <span>📅 2025</span>
-        <span>🏛 National 3U CubeSat Competition</span>
+        <span><i class="fas fa-calendar" aria-hidden="true"></i>Jan 2025 — Present</span>
+        <span>🛰 National 3U CubeSat Competition (Qsat)</span>
       </div>
 
       <a class="project-button" href="/projects/cubesat-adcs/">Project Details</a>
@@ -175,7 +175,7 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
-        <span>📅 2026</span>
+        <span><i class="fas fa-calendar" aria-hidden="true"></i>Jun 2025 — Jan 2026</span>
         <span>🏛 Bachelor’s Final Project</span>
       </div>
 
