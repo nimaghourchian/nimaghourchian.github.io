@@ -114,6 +114,15 @@ redirect_from:
   box-shadow: none !important;
   background-image: none !important;
 }
+
+  .highlight-card .highlight-meta img.drone-icon {
+  width: 1.4em !important;
+  height: 1.4em !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+  flex: 0 0 1.4em !important;
+}
 </style>
 
 Hello, I am a mechanical engineering student interested in the control of complex autonomous and multi-agent systems. My specific interests include adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
