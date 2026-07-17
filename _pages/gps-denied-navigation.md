@@ -50,6 +50,7 @@ The navigation pipeline was divided into three main parts:
     </p>
   </div>
 </details> 
+
 The two localization branches served different purposes.
 Absolute Visual Localization estimated a globally referenced latitude and longitude by finding the satellite-image region corresponding to the current UAV image.
 Relative Visual Localization estimated how the UAV moved between successive camera frames. It produced frequent motion updates but accumulated drift because small errors were integrated over time.
