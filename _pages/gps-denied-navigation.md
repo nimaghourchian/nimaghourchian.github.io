@@ -58,8 +58,6 @@ The Kalman filtering stage combined the two. Relative localization maintained a 
 The resulting output was converted into geographic coordinates and transmitted to ArduPilot through MAVLink as an external navigation measurement intended to replace simulated GPS.
 
 
-
-
 <video autoplay muted loop playsinline controls style="width: 100%; max-width: 900px; border-radius: 10px; margin-bottom: 1.5rem;">
   <source src="/videos/gps-denied-navigation.mp4" type="video/mp4">
 </video>
