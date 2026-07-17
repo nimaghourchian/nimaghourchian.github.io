@@ -129,6 +129,108 @@ redirect_from:
   object-fit: contain !important;
   flex: 0 0 1.4em !important;
 }
+
+
+/* Professional Experience card */
+.experience-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 1.25rem;
+  margin-bottom: 1.8rem;
+
+  background: #ffffff;
+  border: 1px solid #d9e1ea;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.experience-images {
+  position: relative;
+  flex: 0 0 240px;
+  margin: 0 0 1.2rem 0;
+}
+
+.experience-main-image {
+  display: block;
+  width: 240px !important;
+  height: 160px !important;
+  margin: 0 !important;
+
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.experience-overlap-image {
+  position: absolute;
+  right: -22px;
+  bottom: -24px;
+
+  width: 100px !important;
+  height: 72px !important;
+  margin: 0 !important;
+
+  object-fit: cover;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  border-radius: 7px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+}
+
+.experience-content {
+  flex: 1;
+  min-width: 0;
+  padding-left: 0.25rem;
+}
+
+.experience-content h3 {
+  margin: 0 0 0.45rem;
+  color: #24364a;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.experience-content p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .experience-card {
+    display: block;
+    padding: 1rem;
+  }
+
+  .experience-images {
+    width: calc(100% - 18px);
+    max-width: 500px;
+    margin: 0 18px 2.8rem 0;
+  }
+
+  .experience-main-image {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 3 / 2;
+  }
+
+  .experience-overlap-image {
+    right: -18px;
+    bottom: -32px;
+    width: 36% !important;
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+  }
+
+  .experience-content {
+    padding-left: 0;
+  }
+}
+
 </style>
 
 <p class="about-intro">
@@ -171,5 +273,29 @@ redirect_from:
 </div>
 
     <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
+  </div>
+</div>
+
+
+<h2 id="professional-experience">Professional Experience</h2>
+
+<div class="experience-card">
+  <div class="experience-images">
+    <img
+      class="experience-main-image"
+      src="/images/drone-work.jpg"
+      alt="Working on the SpaceOmid agricultural drone"
+    >
+
+    <img
+      class="experience-overlap-image"
+      src="/images/agri-drone.jpg"
+      alt="SpaceOmid agricultural drone"
+    >
+  </div>
+
+  <div class="experience-content">
+    <h3>SpaceOmid</h3>
+    <p>Flight Control &amp; Simulation Engineer</p>
   </div>
 </div>
