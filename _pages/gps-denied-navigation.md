@@ -107,11 +107,7 @@ author_profile: false
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
 The system was developed as my bachelor’s final project. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
 
-<img
-  class="project-architecture"
-  src="/images/visual-positioning-architecture.png"
-  alt="Vision-based GPS-denied navigation architecture"
->
+<img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="display:block; width:70%; max-width:950px; border-radius:10px; margin:1.5rem auto;">
 
 The complete navigation scenario was created in a simulated environment rather than using a physical UAV.
 AirSim was used for simulating the UAV, its motion, camera, and flight dynamics. Cesium for Unreal supplied the geospatial environment and allowed the vehicle to fly over realistic terrain.
