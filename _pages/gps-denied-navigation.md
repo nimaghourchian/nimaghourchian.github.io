@@ -29,17 +29,20 @@ The navigation pipeline was divided into three main parts:
       A pretrained ResNet-50 network was used to extract visual features from each UAV image and each satellite-map tile.
 The final convolutional features were aggregated using Generalized Mean Pooling, or GeM pooling, to generate a compact global descriptor for each image. The descriptors were normalized and stored in a searchable database.
 This allowed the system to compare the general appearance of the UAV image with large numbers of satellite tiles without performing expensive pixel-level matching against every candidate.
-Hierarchical Map Retrieval
+      
+## Hierarchical Map Retrieval
 The basemap was divided into large parent tiles and smaller subtiles.
 During localization, the UAV image descriptor was first searched against the parent-tile database. The most similar parent tiles were selected as possible geographic regions.
 The second retrieval stage then searched only the subtiles belonging to those parent regions. This reduced the candidate area and prevented the fine-matching stage from having to process the complete basemap.
 Both retrieval stages used FAISS, a library designed for efficient similarity search in high-dimensional feature spaces.
-Fine Feature Matching
+
+## Fine Feature Matching
 Global image descriptors are useful for identifying visually similar regions, but they do not prove that two images show exactly the same location.
 The top candidate subtiles were therefore passed to a finer matching stage based on a LiteSAM/LoFTR-style feature matcher.
 This stage produced corresponding feature points between the UAV image and each candidate satellite tile. Candidate tiles were then ranked using the number and confidence of the detected correspondences.
 This made it possible to reject tiles that looked generally similar but did not contain geometrically consistent local features.
-Homography and Geographic Position
+
+## Homography and Geographic Position
 After the best satellite tile had been selected, the matched feature points were used to estimate a projective transformation between the UAV image and the map tile.
 A homography was calculated using RANSAC, which helped reject incorrect or inconsistent correspondences.
 The centre of the UAV image was then projected into the satellite tile using the estimated homography. Because the selected satellite tile was georeferenced, the corresponding pixel could be converted into map coordinates and then into WGS84 latitude and longitude.
@@ -61,15 +64,17 @@ SIFT was used to detect keypoints and calculate descriptors in consecutive frame
 The descriptors were matched using a FLANN-based matcher, and Lowe’s ratio test was applied to remove ambiguous matches.
 If a sufficient number of valid feature correspondences remained, a partial affine transformation was estimated between the two frames.
 From this transformation, the system extracted:
-•	horizontal pixel displacement;
-•	vertical pixel displacement;
-•	change in yaw.
+-	horizontal pixel displacement;
+-	vertical pixel displacement;
+-	change in yaw.
+
 Converting Image Motion into Ground Motion
 The measured pixel displacement had to be converted into a physical displacement.
 The conversion used:
-•	the UAV altitude;
-•	the camera field of view;
-•	the image width and height.
+-	the UAV altitude;
+-	the camera field of view;
+-	the image width and height.
+
 These values were used to approximate the ground-sampling distance of each image. Pixel motion could then be converted into metres.
 The displacement was rotated into a north–east reference frame using the accumulated yaw estimate. Successive motion estimates were integrated to produce a continuous local trajectory.
 This method was fast enough to process image sequences at a nominal rate of 10 Hz, but because each estimate depended on the previous one, errors accumulated over time.
