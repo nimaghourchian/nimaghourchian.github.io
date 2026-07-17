@@ -294,8 +294,11 @@ redirect_from:
     >
   </div>
 
-  <div class="experience-content">
-    <h3>SpaceOmid</h3>
-    <p>Flight Control &amp; Simulation Engineer</p>
+ <div class="experience-content">
+  <h3>SpaceOmid</h3>
+
+  <div class="highlight-meta">
+    Flight Control &amp; Simulation Engineer
   </div>
+</div>
 </div>
