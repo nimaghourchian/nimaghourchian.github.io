@@ -21,15 +21,6 @@ A separate georeferenced basemap was created using satellite imagery from Google
 Ground-truth coordinates from the simulation were used only for evaluation and comparison. The intended navigation estimate itself came from the visual-localization algorithms.
 
 The navigation pipeline was divided into three main parts:
-1.	Absolute Visual Localization
-2.	Relative Visual Localization
-3.	Kalman filtering 
-The two localization branches served different purposes.
-Absolute Visual Localization estimated a globally referenced latitude and longitude by finding the satellite-image region corresponding to the current UAV image.
-Relative Visual Localization estimated how the UAV moved between successive camera frames. It produced frequent motion updates but accumulated drift because small errors were integrated over time.
-The Kalman filtering stage combined the two. Relative localization maintained a continuous trajectory, while occasional absolute-localization results were used to correct the accumulated drift.
-The resulting output was converted into geographic coordinates and transmitted to ArduPilot through MAVLink as an external navigation measurement intended to replace simulated GPS.
-
 <details class="project-details">
   <summary>Absolute Visual Localization</summary>
 
@@ -58,7 +49,14 @@ The resulting output was converted into geographic coordinates and transmitted t
       Detailed explanation goes here.
     </p>
   </div>
-</details>
+</details> 
+The two localization branches served different purposes.
+Absolute Visual Localization estimated a globally referenced latitude and longitude by finding the satellite-image region corresponding to the current UAV image.
+Relative Visual Localization estimated how the UAV moved between successive camera frames. It produced frequent motion updates but accumulated drift because small errors were integrated over time.
+The Kalman filtering stage combined the two. Relative localization maintained a continuous trajectory, while occasional absolute-localization results were used to correct the accumulated drift.
+The resulting output was converted into geographic coordinates and transmitted to ArduPilot through MAVLink as an external navigation measurement intended to replace simulated GPS.
+
+
 
 
 <video autoplay muted loop playsinline controls style="width: 100%; max-width: 900px; border-radius: 10px; margin-bottom: 1.5rem;">
