@@ -145,7 +145,7 @@ My role as a member of the Attitude Determination and Control System team involv
     <img src="{{ '/images/SIL.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
   </a>
   <figcaption>
-    Software-In-The-Loop simulation and testing. 
+    <strong>Software-In-The-Loop simulation and testing<strong> 
   </figcaption>
 </figure>
 
