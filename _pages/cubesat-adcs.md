@@ -131,21 +131,23 @@ Our design progressed through the conceptual and detailed design stages, placing
 My role as a member of the Attitude Determination and Control System team involved translating the mission profile into ADCS requirements, researching, selecting and implementing the control architecture, developing the orbital and attitude dynamics simulation, defining reference frames and coordinate transformations, implementing and tuning the attitude controller, designing orbital day/night sensor-selection logic, combining sensor measurements to reduce noise and drift, and validating the system through software-in-the-loop and processor-in-the-loop testing.
 
 <figure class="cubesat-model">
-  <a class="cubesat-model-image" href="{{ '/images/Orbital_Model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the orbital and environmental model at full resolution in a new tab">
+  <div class="cubesat-model-image">
     <img src="{{ '/images/Orbital_Model.jpg' | relative_url }}" alt="Simulink orbital model showing the propagator, atmospheric drag, Sun and eclipse models, geomagnetic field, and reference-frame transformations" width="2048" height="885" loading="lazy" decoding="async">
-  </a>
+  </div>
+
   <figcaption>
-    <strong>Orbital Model</strong>
+    <strong>Orbital and Environmental Model</strong>
     Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
   </figcaption>
 </figure>
 
 <figure class="cubesat-model">
-  <a class="cubesat-model-image" href="{{ '/images/SIL.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the full software-in-the-loop model at full resolution in a new tab">
+  <div class="cubesat-model-image">
     <img src="{{ '/images/SIL.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
-  </a>
+  </div>
+
   <figcaption>
-    <strong>Software-In-The-Loop simulation and testing</strong> 
+    The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
   </figcaption>
 </figure>
 
