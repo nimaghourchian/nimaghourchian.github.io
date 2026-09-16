@@ -118,7 +118,7 @@ Our design progressed through the conceptual and detailed design stages, ultimat
 
 ![Cubisa team during the national QSat competition](/images/cubesat-team.jpg){: .cubesat-team-photo }
 
-My role as a member of the Attitude Determination and Control System team involved translating the mission profile into ADCS requirements, researching and selecting the control architecture, developing the orbital and attitude-dynamics simulation, defining reference frames and coordinate transformations, implementing and tuning the attitude controller, designing orbital day/night sensor-selection logic, combining sensor measurements to reduce noise and drift, and validating the system through software-in-the-loop and processor-in-the-loop testing.
+My role as a member of the Attitude Determination and Control System team involved translating the mission profile into ADCS requirements, researching, selecting and implementing the control architecture, developing the orbital and attitude dynamics simulation, defining reference frames and coordinate transformations, implementing and tuning the attitude controller, designing orbital day/night sensor-selection logic, combining sensor measurements to reduce noise and drift, and validating the system through software-in-the-loop and processor-in-the-loop testing.
 
 
 
@@ -136,8 +136,7 @@ My role as a member of the Attitude Determination and Control System team involv
 
 
 
-<details class="cubesat-sil">
-  <summary>Full Software-in-the-Loop Model</summary>
+
   <figure class="cubesat-model">
     <a class="cubesat-model-image" href="{{ '/images/SIL.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the full software-in-the-loop model at full resolution in a new tab">
       <img src="{{ '/images/SIL.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
@@ -148,7 +147,7 @@ My role as a member of the Attitude Determination and Control System team involv
   </figure>
 </details>
 
-This project gave me experience with the complete development process of a spacecraft control subsystem—from interpreting mission requirements and studying candidate algorithms to mathematical modelling, sensor management, controller tuning, simulation, and embedded integration.
+Although the circumstances in the country slowed down our progress repeatedly and caused HIL testing to remain unfinished, This project gave me a practical experience with the development process of a CubeSat's control subsystem, from interpreting mission requirements and studying algorithms to mathematical modelling, sensor management, controller tuning, simulation, and embedded integration.
 
-More importantly, it taught me that developing a control system is not merely a matter of implementing equations from a paper. Every theoretical decision must remain consistent with the spacecraft’s mission, coordinate conventions, sensor availability, actuator constraints, computational hardware, and validation strategy.
+More importantly, it taught me that developing a control system is not only a matter of implementing equations from a paper. Every theoretical decision must remain consistent with the CubeSat's mission, coordinate conventions, sensor usage, actuator constraints, limitations of computational hardware, and validation strategy.
 
