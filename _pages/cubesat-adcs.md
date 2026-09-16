@@ -118,11 +118,11 @@ author_profile: false
 }
 </style>
 
-This competition gave participating teams the freedom to define their own CubeSat missions and design the spacecraft around the resulting requirements. After evaluating several mission concepts, our team developed Cubisa, a 3U CubeSat intended to demonstrate technologies relevant to tether-based space-debris removal.
+This competition gave participating teams the freedom to define their own CubeSat missions and design the spacecraft around the resulting requirements. After evaluating several mission concepts, our team developed Cubisa, a 3U CubeSat intended to demonstrate technologies relevant to tether-based space-debris removal and de-orbit maneuvering using dragsails.  
 
 The spacecraft consisted of the main satellite, named Q, and a detachable module, named Bisa, representing a target object. The proposed mission involved stabilizing the spacecraft after orbital injection, deploying Bisa using an inter-satellite tether, observing its relative motion through onboard imaging, retrieving and reconnecting it, reorienting the combined spacecraft, and finally deploying a drag sail to accelerate orbital decay.
 
-Our design progressed through the conceptual and detailed design stages, ultimately placing among the top four of 52 teams nationwide and receiving funding to develop an engineering prototype.
+Our design progressed through the conceptual and detailed design stages, placing us among the top four of 52 teams nationwide and securing funding to develop an engineering prototype. Our team ultimately finished in third place.
 
 [View the competition announcement and results (Persian) ↗](https://snn.ir/fa/news/1191297/%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%DB%B6%DB%B0%DB%B0-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AA%D9%88%D9%85%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AA%DB%8C%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-qsat){: .cubesat-news-link }
 
@@ -135,7 +135,7 @@ My role as a member of the Attitude Determination and Control System team involv
     <img src="{{ '/images/Orbital_Model.jpg' | relative_url }}" alt="Simulink orbital model showing the propagator, atmospheric drag, Sun and eclipse models, geomagnetic field, and reference-frame transformations" width="2048" height="885" loading="lazy" decoding="async">
   </a>
   <figcaption>
-    <strong>Orbital and Environmental Model</strong>
+    <strong>Orbital Model</strong>
     Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
   </figcaption>
 </figure>
@@ -145,7 +145,7 @@ My role as a member of the Attitude Determination and Control System team involv
     <img src="{{ '/images/SIL.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
   </a>
   <figcaption>
-    The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
+    Software-In-The-Loop simulation and testing. 
   </figcaption>
 </figure>
 
