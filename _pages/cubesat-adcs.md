@@ -126,11 +126,11 @@ My role as a member of the Attitude Determination and Control System team involv
 <figure class="cubesat-model">
   <a class="cubesat-model-image" href="{{ '/images/Orbital_Model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the orbital and environmental model at full resolution in a new tab">
     <img src="{{ '/images/Orbital_Model.jpg' | relative_url }}" alt="Simulink orbital model showing the propagator, atmospheric drag, Sun and eclipse models, geomagnetic field, and reference-frame transformations" width="2048" height="885" loading="lazy" decoding="async">
-  </a>
+
   <figcaption>
     <strong>Orbital and Environmental Model</strong>
     Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
-   </a>
+
   </figcaption>
 </figure>
 
