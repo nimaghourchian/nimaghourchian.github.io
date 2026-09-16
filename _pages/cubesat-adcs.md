@@ -124,8 +124,8 @@ My role as a member of the Attitude Determination and Control System team involv
 
 
 <figure class="cubesat-model">
-  <a class="cubesat-model-image" href="{{ '/images/cubesat-orbital-model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the orbital and environmental model at full resolution in a new tab">
-    <img src="{{ '/images/cubesat-orbital-model.jpg' | relative_url }}" alt="Simulink orbital model showing the propagator, atmospheric drag, Sun and eclipse models, geomagnetic field, and reference-frame transformations" width="2048" height="885" loading="lazy" decoding="async">
+  <a class="cubesat-model-image" href="{{ '/images/Orbital_Model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the orbital and environmental model at full resolution in a new tab">
+    <img src="{{ '/images/Orbital_Model.jpg' | relative_url }}" alt="Simulink orbital model showing the propagator, atmospheric drag, Sun and eclipse models, geomagnetic field, and reference-frame transformations" width="2048" height="885" loading="lazy" decoding="async">
   </a>
   <figcaption>
     <strong>Orbital and Environmental Model</strong>
@@ -139,8 +139,8 @@ My role as a member of the Attitude Determination and Control System team involv
 <details class="cubesat-sil">
   <summary>Full Software-in-the-Loop Model</summary>
   <figure class="cubesat-model">
-    <a class="cubesat-model-image" href="{{ '/images/cubesat-sil-model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the full software-in-the-loop model at full resolution in a new tab">
-      <img src="{{ '/images/cubesat-sil-model.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
+    <a class="cubesat-model-image" href="{{ '/images/SIL.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the full software-in-the-loop model at full resolution in a new tab">
+      <img src="{{ '/images/SIL.jpg' | relative_url }}" alt="Full Simulink SIL model showing the feedback connections between attitude commands, control, magnetic actuation, attitude dynamics, quaternion propagation, and sensor fusion" width="2048" height="1384" loading="lazy" decoding="async">
     </a>
     <figcaption>
       The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
