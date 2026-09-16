@@ -130,7 +130,7 @@ My role as a member of the Attitude Determination and Control System team involv
   <figcaption>
     <strong>Orbital and Environmental Model</strong>
     Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
-    <br><a class="cubesat-model-link" href="{{ '/images/Orbital_Model.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
+   </a>
   </figcaption>
 </figure>
 
@@ -144,7 +144,6 @@ My role as a member of the Attitude Determination and Control System team involv
     </a>
     <figcaption>
       The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
-      <br><a class="cubesat-model-link" href="{{ '/images/SIL.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
     </figcaption>
   </figure>
 </details>
