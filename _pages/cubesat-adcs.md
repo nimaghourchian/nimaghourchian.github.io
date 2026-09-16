@@ -121,9 +121,7 @@ Our design progressed through the conceptual and detailed design stages, ultimat
 My role as a member of the Attitude Determination and Control System team involved translating the mission profile into ADCS requirements, researching and selecting the control architecture, developing the orbital and attitude-dynamics simulation, defining reference frames and coordinate transformations, implementing and tuning the attitude controller, designing orbital day/night sensor-selection logic, combining sensor measurements to reduce noise and drift, and validating the system through software-in-the-loop and processor-in-the-loop testing.
 
 
-## ADCS Simulation and Verification
 
-The MATLAB/Simulink simulation linked orbital and environmental models with attitude dynamics, sensor measurements, attitude estimation, and magnetorquer actuation. Control algorithms were verified in software-in-the-loop (SIL), followed by processor-in-the-loop (PIL) testing of generated C/C++ code on an STM32 Nucleo board.
 
 <figure class="cubesat-model">
   <a class="cubesat-model-image" href="{{ '/images/cubesat-orbital-model.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the orbital and environmental model at full resolution in a new tab">
@@ -132,7 +130,7 @@ The MATLAB/Simulink simulation linked orbital and environmental models with atti
   <figcaption>
     <strong>Orbital and Environmental Model</strong>
     Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
-    <br><a class="cubesat-model-link" href="{{ '/images/cubesat-orbital-model.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
+    <br><a class="cubesat-model-link" href="{{ '/images/Orbital_Model.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
   </figcaption>
 </figure>
 
@@ -146,7 +144,7 @@ The MATLAB/Simulink simulation linked orbital and environmental models with atti
     </a>
     <figcaption>
       The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
-      <br><a class="cubesat-model-link" href="{{ '/images/cubesat-sil-model.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
+      <br><a class="cubesat-model-link" href="{{ '/images/SIL.jpg' | relative_url }}" target="_blank" rel="noopener">View full resolution (new tab)</a>
     </figcaption>
   </figure>
 </details>
