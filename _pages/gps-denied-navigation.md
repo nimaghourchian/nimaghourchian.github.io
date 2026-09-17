@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Vision-Based GPS-Denied Navigation"
+title: "Vision-Based GPS-Denied Navigation for UAVs"
 permalink: /projects/gps-denied-navigation/
 author_profile: false
 ---
@@ -87,6 +87,30 @@ author_profile: false
   border-radius: 10px;
 }
 
+.project-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.35rem 0 1.5rem;
+  padding: 0.5rem 0.85rem;
+  color: #24292f !important;
+  background: #ffffff;
+  border: 1px solid #d0d7de !important;
+  border-bottom: 1px solid #d0d7de !important;
+  border-radius: 6px;
+  box-shadow: none;
+  background-image: none;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.project-github-link:hover {
+  color: #0969da !important;
+  background: #f6f8fa;
+  border-color: #afb8c1 !important;
+  text-decoration: none !important;
+}
+
 @media (max-width: 800px) {
   .project-details summary {
     padding: 0.8rem 0.9rem;
@@ -106,6 +130,16 @@ author_profile: false
 
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
 The system was developed as my bachelor’s final project. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
+
+<a
+  class="project-github-link"
+  href="https://github.com/nimaghourchian/vision-based-gps-denied-uav-navigation"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github" aria-hidden="true"></i>
+  <span>View on GitHub</span>
+</a>
 
 <img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="display:block; width:70%; max-width:950px; border-radius:10px; margin:1.5rem auto;">
 
