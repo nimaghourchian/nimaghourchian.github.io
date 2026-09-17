@@ -71,6 +71,12 @@ redirect_from:
   line-height: 1.35;
 }
 
+.highlight-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
 .highlight-button {
   display: inline-block;
   padding: 0.32rem 0.65rem;
@@ -86,6 +92,22 @@ redirect_from:
 .highlight-button:hover {
   background: #f3f4f6;
   text-decoration: none !important;
+}
+
+.highlight-button--source,
+.highlight-button--source:link,
+.highlight-button--source:visited {
+  color: #ffffff !important;
+  background: #24292f !important;
+  border-color: #24292f !important;
+}
+
+.highlight-button--source:hover,
+.highlight-button--source:focus,
+.highlight-button--source:active {
+  color: #ffffff !important;
+  background: #1b1f23 !important;
+  border-color: #1b1f23 !important;
 }
 
 .highlight-card:hover {
@@ -119,6 +141,18 @@ redirect_from:
   border-bottom: 1px solid #d0d7de !important;
   box-shadow: none !important;
   background-image: none !important;
+}
+
+.highlight-button--source,
+.highlight-button--source:link,
+.highlight-button--source:visited {
+  border-color: #24292f !important;
+}
+
+.highlight-button--source:hover,
+.highlight-button--source:focus,
+.highlight-button--source:active {
+  border-color: #1b1f23 !important;
 }
 
   .highlight-card .highlight-meta img.drone-icon {
@@ -272,7 +306,15 @@ redirect_from:
   Bachelor’s Final Project
 </div>
 
-    <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
+    <div class="highlight-actions">
+      <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
+      <a
+        class="highlight-button highlight-button--source"
+        href="https://github.com/nimaghourchian/vision-based-gps-denied-uav-navigation"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Source Code</a>
+    </div>
   </div>
 </div>
 
