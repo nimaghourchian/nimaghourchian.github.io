@@ -180,7 +180,7 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
-        <span>🛰 National 3U CubeSat Competition (Qsat)</span>
+        <span>🛰 National CubeSat Design Competition (Qsat)</span>
       </div>
 
       <a class="project-button" href="/projects/cubesat-adcs/">
