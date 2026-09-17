@@ -168,7 +168,7 @@ author_profile: false
     <a href="/projects/cubesat-adcs/">
       <div class="project-image-wrapper">
         <img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team">
-        <div class="project-year-badge">Jan 2024 — Present</div>
+        <div class="project-year-badge">Jan 2024 — Jul 2026</div>
       </div>
     </a>
 
