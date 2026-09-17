@@ -122,6 +122,12 @@ author_profile: false
   flex-shrink: 0;
 }
 
+.project-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
 .project-button {
   display: block;
   padding: 0.85rem 1rem;
@@ -136,6 +142,14 @@ author_profile: false
 
 .project-button:hover {
   background: #4f63dc;
+}
+
+.project-button--source {
+  background: #24292f;
+}
+
+.project-button--source:hover {
+  background: #1b1f23;
 }
 
 .project-button,
@@ -158,6 +172,12 @@ author_profile: false
 
   .project-image-wrapper {
     height: 210px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-actions {
+    grid-template-columns: 1fr;
   }
 }
 </style>
@@ -221,9 +241,19 @@ author_profile: false
         </span>
       </div>
 
-      <a class="project-button" href="/projects/gps-denied-navigation/">
-        Project Details
-      </a>
+      <div class="project-actions">
+        <a class="project-button" href="/projects/gps-denied-navigation/">
+          Project Details
+        </a>
+        <a
+          class="project-button project-button--source"
+          href="https://github.com/nimaghourchian/vision-based-gps-denied-uav-navigation"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source Code
+        </a>
+      </div>
     </div>
   </div>
 
