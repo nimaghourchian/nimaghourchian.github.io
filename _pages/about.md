@@ -268,9 +268,9 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-  Hello, I am a mechanical engineering student interested in the control of
-  complex autonomous and multi-agent systems. My specific interests include
-  adaptive control, state estimation, nonlinear dynamics, and sensor fusion.
+  Hello, I am a Mechanical Engineering graduate with experience in satellite attitude determination and control, vision-based UAV navigation, and      agricultural UAV systems. 
+  I also have a habit of turning almost everything into an engineering project, including my hobbies. My most recent example was building a wood-fired oven to reach the temperatures needed for a proper Neapolitan pizza. I have an equally unnecessary enthusiasm for quaternions; anyone who knows me well has probably heard me explain at least once why I think they are much cooler than Euler angles.
+
 </p>
 
 ## Selected Projects
