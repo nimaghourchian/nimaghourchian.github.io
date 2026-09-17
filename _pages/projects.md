@@ -206,7 +206,7 @@ author_profile: false
     <div class="project-content">
       <h2 class="project-title">
         <a href="/projects/gps-denied-navigation/">
-          Vision-Based GPS-Denied Navigation
+          Vision-Based GPS-Denied Navigation for UAVs
         </a>
       </h2>
 
