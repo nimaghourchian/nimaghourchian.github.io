@@ -46,7 +46,7 @@
   function copyEmailToClipboard(event, link) {
     event.preventDefault();
 
-    const email = "nima.ghourchian01@gmail.com";
+    const email = "{{ author.email }}";
     const feedback = link.querySelector(".copy-feedback");
 
     navigator.clipboard.writeText(email).then(function() {
