@@ -250,7 +250,7 @@ redirect_from:
     
 
     <div class="highlight-meta">
-      🛰 National 3U CubeSat Competition (Qsat)
+      🛰 National CubeSat Design Competition (Qsat)
     </div>
 
     <a class="highlight-button" href="/projects/cubesat-adcs/">Project Details</a>
@@ -263,7 +263,7 @@ redirect_from:
   </video>
 
   <div class="highlight-content">
-    <h3>Vision-Based GPS-Denied Navigation</h3>
+    <h3>Vision-Based GPS-Denied Navigation for UAVs</h3>
 
 
 
