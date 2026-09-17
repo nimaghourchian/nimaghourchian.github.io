@@ -268,9 +268,11 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-  Hello, I am a Mechanical Engineering graduate with experience in satellite attitude determination and control, vision-based UAV navigation, and      agricultural UAV systems. 
-  I also have a habit of turning almost everything into an engineering project, including my hobbies. My most recent example was building a wood-fired oven to reach the temperatures needed for a proper Neapolitan pizza. I have an equally unnecessary enthusiasm for quaternions; anyone who knows me well has probably heard me explain at least once why I think they are much cooler than Euler angles.
+  Hello, I am a Mechanical Engineering graduate with experience in satellite attitude determination and control, vision-based UAV navigation, and agricultural UAV systems.
+</p>
 
+<p class="about-intro">
+  I also have a habit of turning almost everything into an engineering project, including my hobbies. My most recent example was building a wood-fired oven to reach the temperatures I need for a proper Neapolitan pizza. I have an equally unnecessary enthusiasm for quaternions. Anyone who knows me well has probably heard me explain at least once why I think they are much cooler than Euler angles. Although, not all of them care!
 </p>
 
 ## Selected Projects
