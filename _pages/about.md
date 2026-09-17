@@ -272,7 +272,7 @@ redirect_from:
 </p>
 
 <p class="about-intro">
-  I also have a habit of turning almost everything into an engineering project, including my hobbies. My most recent example was building a wood-fired oven to reach the temperatures I need for a proper Neapolitan pizza. I have an equally unnecessary enthusiasm for quaternions. Anyone who knows me well has probably heard me explain at least once why I think they are much cooler than Euler angles. Although, not all of them care!
+  I have a habit of turning almost everything into an engineering project, including my hobbies. My most recent example was building a wood-fired oven to reach the temperatures I need for a proper Neapolitan pizza. I also have an equally unnecessary enthusiasm for quaternions. Anyone who knows me well has probably heard me explain at least once why I think they are much cooler than Euler angles. Although, not all of them care!
 </p>
 
 ## Selected Projects
