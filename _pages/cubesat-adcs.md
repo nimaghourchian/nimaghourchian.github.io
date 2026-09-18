@@ -136,8 +136,7 @@ My role as a member of the Attitude Determination and Control System team involv
   </div>
 
   <figcaption>
-    <strong>Orbital and Environmental Model</strong>
-    Orbital propagation with atmospheric drag, Sun-vector and eclipse calculations, geomagnetic-field modelling, and reference-frame transformations.
+    <strong>Orbital Model</strong>
   </figcaption>
 </figure>
 
@@ -147,7 +146,7 @@ My role as a member of the Attitude Determination and Control System team involv
   </div>
 
   <figcaption>
-    The integrated simulation connects the controller, actuator torque, attitude equations of motion, quaternion propagation, and sensor-fusion feedback.
+    <strong>Software-in-the-Loop testing</strong>
   </figcaption>
 </figure>
 
